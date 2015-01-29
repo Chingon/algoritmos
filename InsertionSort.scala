@@ -7,7 +7,7 @@ var A=Array(6,5,3,1,8,7,2,4)
 var j=0
 var temp=0
 
-for(i<-1 to 7) {
+for(i<-1 to 10) {
 j=i
 while( j > 0 && A(j-1) > A(j) ) {
 temp =A(j)
