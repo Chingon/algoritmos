@@ -20,7 +20,7 @@ println("El vector es:")
 var i=0
 
 while(i<8){
-print(A(i)+" ")
+println(A(i)+" ")
 i=i+1
 }
 
