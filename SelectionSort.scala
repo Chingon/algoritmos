@@ -1,5 +1,5 @@
 object SelectionSort{
-	
+
 def main(args:Array[String]){
 var A=Array(60,5,1,12,4,34)
 var f=0
