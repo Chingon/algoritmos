@@ -32,7 +32,7 @@ j=j-1
 println("El arreglo revuelto queda asi:")
 for(i<-0 to A.length-1){
 print(A(i)+" ")
-//print(A(i)+" ")
+
 }
 
 }
