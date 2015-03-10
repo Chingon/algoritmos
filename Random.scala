@@ -1,12 +1,10 @@
 import scala.util.Random
-import scala.math._ 
 object Random{
 def main(args:Array[String]){
 
 var A=Array(1,2,3,4,5,6,7,8,9,10)	
 var R=new Array[Int](A.length)
 var x =new Random
-//var y=pow(A.length,3)
 
 for (i<-0 to A.length-1){
 
@@ -34,7 +32,6 @@ j=j-1
 println("El arreglo revuelto queda asi:")
 for(i<-0 to A.length-1){
 print(A(i)+" ")
-//print(R(i)+" ")	
 }
 
 }
