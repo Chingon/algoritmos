@@ -6,9 +6,14 @@ var A=Array(1,2,3,4,5,6,7,8,9,10)
 var R=new Array[Int](A.length)
 var x =new Random
 
+
 for (i<-0 to A.length-1){
 
 R(i)=x.nextInt(A.length*A.length*A.length) 
+
+for (i<-0 to A.length-1){
+R(i)=x.nextInt(1000) 
+
 }
 
 var i=0
@@ -32,7 +37,6 @@ j=j-1
 println("El arreglo revuelto queda asi:")
 for(i<-0 to A.length-1){
 print(A(i)+" ")
-
 }
 
 }
